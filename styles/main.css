@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(0, 0, 255, 0.979);
+    color: white;
+}
+
+header {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: space-between;
+
+}
+.JimPic img {
+    border: 5px solid red;
+    border-radius: 3px;
+}
+
+.committee ol {
+    font-size: larger;
+}
