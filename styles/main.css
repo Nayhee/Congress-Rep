@@ -1,14 +1,17 @@
 body {
-    background-color: #24244C;
     color: white;
+    background-color: #25274D;
 }
 
 header {
-    background-color: #2a42c9;
+    margin: auto;
+    width: 42%;
+    background-color: #29648A;
     color: white;
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
     border: 4px solid black;
     border-radius: 6px;
@@ -21,7 +24,8 @@ header h1 {
 .bio img {
     border: 4px solid black;
     border-radius: 3px;
-    margin-top: 3px;
+    margin: auto;
+    width: 55%;
 }
 .bio h3, p{
     margin-top: 0px;
@@ -34,12 +38,16 @@ header h1 {
     font-size: 16px;
 }
 
-.foot {
+.foot a {
+    color: lightgray;
     font-style: italic;
 }
 
-.foot a {
-    color: lightgray;
+.mainAndFootContainer {
+    background-color: #464866;
+    margin: auto;
+    width: 42%;
+    border: 3px solid black;
+    padding: 5px;
+    
 }
-   
-
